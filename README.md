@@ -1,6 +1,6 @@
-# Federal Reserve Plots
+## Federal Reserve Plots
 
-'''# Economic Data Visualization Script
+## Economic Data Visualization Script
 
 ## Overview
 This Python script retrieves and visualizes key economic indicators from the Federal Reserve Economic Data (FRED) API. The indicators included in this script are:
@@ -19,8 +19,7 @@ To run this script, you need the following Python packages:
 
 You can install these packages using pip:
 
-```bash
-pip install pandas matplotlib fredapi
+```pip install pandas matplotlib fredapi'''
 
 
 Setup
