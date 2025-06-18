@@ -19,13 +19,13 @@ To run this script, you need the following Python packages:
 
 You can install these packages using pip:
 
-```pip install pandas matplotlib fredapi
+    ```pip install pandas matplotlib fredapi```
 
 
 ## Setup#
 1. API Key: You need to obtain an API key from the FRED website. Replace the placeholder in the script with your actual API key:
 
-    api_key = 'your_api_key'  # Replace with your actual FRED API key
+    ```api_key = 'your_api_key'  # Replace with your actual FRED API key```
 
 2. Run the Script: Execute the script in your Python environment. It will automatically fetch the data and generate the plots.
 
@@ -45,6 +45,7 @@ Each plot includes a legend, grid lines, and a text box indicating the latest va
 Additional Features
 1. Error handling is implemented to manage issues with data retrieval.
 2. You can modify the script to include additional economic indicators or customize the date range for data retrieval.
+
 License
 This script is provided for educational purposes. Feel free to modify and use it as needed.
 
