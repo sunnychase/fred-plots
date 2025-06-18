@@ -19,7 +19,7 @@ To run this script, you need the following Python packages:
 
 You can install these packages using pip:
 
-`pip install pandas matplotlib fredapi'
+```pip install pandas matplotlib fredapi
 
 
 ## Setup#
