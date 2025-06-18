@@ -1,6 +1,6 @@
 # Federal Reserve Plots
 
-# Economic Data Visualization Script
+'''# Economic Data Visualization Script
 
 ## Overview
 This Python script retrieves and visualizes key economic indicators from the Federal Reserve Economic Data (FRED) API. The indicators included in this script are:
@@ -22,28 +22,30 @@ You can install these packages using pip:
 ```bash
 pip install pandas matplotlib fredapi
 
-Setup
-API Key: You need to obtain an API key from the FRED website. Replace the placeholder in the script with your actual API key:
-python
 
-Copy Code
-api_key = 'your_api_key'  # Replace with your actual FRED API key
-Run the Script: Execute the script in your Python environment. It will automatically fetch the data and generate the plots.
+Setup
+1. API Key: You need to obtain an API key from the FRED website. Replace the placeholder in the script with your actual API key:
+
+    api_key = 'your_api_key'  # Replace with your actual FRED API key
+
+2. Run the Script: Execute the script in your Python environment. It will automatically fetch the data and generate the plots.
+
 Functionality
-M2 Money Supply: The script retrieves the M2 money supply data and plots it over time. The latest M2 value is displayed on the plot.
-CPI Inflation: The script retrieves the Consumer Price Index (CPI) data and plots it over time. The latest CPI value is displayed on the plot.
-Unemployment Rate: The script retrieves the unemployment rate data and plots it over time. The latest unemployment rate is displayed on the plot.
+1.  M2 Money Supply: The script retrieves the M2 money supply data and plots it over time. The latest M2 value is displayed on the plot.
+2.  CPI Inflation: The script retrieves the Consumer Price Index (CPI) data and plots it over time. The latest CPI value is displayed on the plot.
+3.   Unemployment Rate: The script retrieves the unemployment rate data and plots it over time. The latest unemployment rate is displayed on the plot.
+
 Output
 The script generates three separate plots:
 
-M2 Money Supply Over Time
-CPI Inflation Over Time
-Unemployment Rate Over Time
+1. M2 Money Supply Over Time
+2. CPI Inflation Over Time
+3. Unemployment Rate Over Time
 Each plot includes a legend, grid lines, and a text box indicating the latest value of the respective indicator.
 
 Additional Features
-Error handling is implemented to manage issues with data retrieval.
-You can modify the script to include additional economic indicators or customize the date range for data retrieval.
+1. Error handling is implemented to manage issues with data retrieval.
+2. You can modify the script to include additional economic indicators or customize the date range for data retrieval.
 License
 This script is provided for educational purposes. Feel free to modify and use it as needed.
 
