@@ -1,4 +1,4 @@
-# Economic Indicators Visualization Script
+# FRED Economic Data Chart Visualization Script
 
 This script retrieves and visualizes economic indicators using the FRED API. You can customize it further based on your specific needs or preferences.
 
