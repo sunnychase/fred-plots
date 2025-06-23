@@ -1,10 +1,6 @@
-## Federal Reserve Plots
-
-Here's a sample README for your script that retrieves and visualizes economic indicators using the FRED API. You can customize it further based on your specific needs or preferences.
-
----
-
 # Economic Indicators Visualization Script
+
+This script retrieves and visualizes economic indicators using the FRED API. You can customize it further based on your specific needs or preferences.
 
 ## Overview
 
@@ -74,13 +70,9 @@ The script includes basic error handling to manage issues that may arise during 
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Sunny Chase, All Rights Reserved 2025
 
 ## Acknowledgments
 
 - [FRED API](https://fred.stlouisfed.org/) for providing access to economic data.
 - [Matplotlib](https://matplotlib.org/) for data visualization.
-
----
-
-Feel free to modify any sections to better fit your project or to add any additional information that may be relevant!
